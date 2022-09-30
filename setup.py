@@ -70,10 +70,7 @@ setup(
             'twisted = apscheduler.executors.twisted:TwistedExecutor [twisted]'
         ],
         'apscheduler.jobstores': [
-            'memory = apscheduler.jobstores.memory:MemoryJobStore',
             'sqlalchemy = apscheduler.jobstores.sqlalchemy:SQLAlchemyJobStore [sqlalchemy]',
-            'mongodb = apscheduler.jobstores.mongodb:MongoDBJobStore [mongodb]',
-            'rethinkdb = apscheduler.jobstores.rethinkdb:RethinkDBJobStore [rethinkdb]',
         ]
     }
 )
