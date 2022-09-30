@@ -51,9 +51,7 @@ setup(
         'sqlalchemy': ['sqlalchemy >= 0.8'],
         'mongodb': ['pymongo >= 2.8'],
         'rethinkdb': ['rethinkdb'],
-        'redis': ['redis'],
         'tornado': ['tornado >= 4.3'],
-        'zookeeper': ['kazoo']
     },
     zip_safe=False,
     entry_points={
